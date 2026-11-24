@@ -1,0 +1,22 @@
+:root { --bg:#0b141a; --panel:#111b21; --line:#222d34; --fg:#e9edef; --muted:#8696a0; --accent:#25d366; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif; }
+main { max-width:760px; margin:0 auto; padding:2rem 1rem 4rem; }
+h1 { margin:0; font-size:2.2rem; } header p { color:var(--muted); }
+.drop { display:block; border:2px dashed var(--line); border-radius:16px; padding:2.5rem 1rem; text-align:center; color:var(--muted); cursor:pointer; transition:border-color .2s; }
+.drop:hover { border-color:var(--accent); }
+.btn { background:var(--accent); color:#04210f; border:0; border-radius:999px; padding:.7rem 1.4rem; font-weight:700; cursor:pointer; margin-top:1rem; }
+.btn.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+progress { width:100%; margin-top:1rem; accent-color:var(--accent); }
+#error { color:#ff7b7b; }
+.summary { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:.75rem; margin:1.5rem 0; }
+.tile, .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:1rem; }
+.tile b { display:block; font-size:1.6rem; color:var(--accent); } .tile span { color:var(--muted); font-size:.85rem; }
+.card { margin-top:1rem; } .card h2 { margin:0 0 .75rem; font-size:1.05rem; }
+.person { display:grid; grid-template-columns:1fr auto; padding:.5rem 0; border-bottom:1px solid var(--line); }
+.person small { grid-column:1/-1; color:var(--muted); }
+.bar { display:grid; grid-template-columns:90px 1fr 56px; align-items:center; gap:.5rem; margin:.3rem 0; }
+.bar i { display:block; height:10px; border-radius:5px; background:var(--accent); } .bar b { text-align:right; font-weight:500; color:var(--muted); }
+.label { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.heat { display:grid; grid-template-columns:32px repeat(24,1fr); gap:3px; align-items:center; overflow-x:auto; }
+.heat i { aspect-ratio:1; min-width:10px; border-radius:3px; background:var(--accent); } .heat .day { font-size:.7rem; color:var(--muted); }
