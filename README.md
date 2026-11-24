@@ -2,9 +2,7 @@
 
 Statistik chat WhatsApp yang diproses **100% di browser**. Upload file export chat, langsung dapat heatmap jam aktif, siapa paling cerewet, waktu balas, kata dan emoji favorit, plus kartu yang bisa dibagikan. **Tidak ada server, tidak ada upload.**
 
-> **Live demo:** `https://<username>.github.io/wa-wrapped/` &nbsp;|&nbsp; ![demo](docs/demo.gif)
->
-> _(Ganti link dan GIF di atas setelah deploy. Rekam layar 10 detik pakai tombol "Coba pakai data demo".)_
+> **Live demo:** `https://wa-wrapped-livid.vercel.app/` &nbsp;|&nbsp; ![demo](docs/demo.gif)
 
 ## Fitur
 
